@@ -55,6 +55,7 @@ export default function NampaPage() {
         city="Nampa"
         headline="HVAC Services in Nampa, Idaho"
         subheadline="Reliable heating and cooling for Nampa families."
+        image="/generated/nampa-hvac.webp"
       />
 
       <section className="py-16 bg-white">

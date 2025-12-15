@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import { CheckCircle, Phone, AlertTriangle, Clock } from 'lucide-react'
 import Link from 'next/link'
 
@@ -26,8 +27,16 @@ const emergencies = [
 export default function EmergencyHVACPage() {
   return (
     <main className="pt-20">
-      <section className="py-16 bg-gradient-to-b from-red-700 to-red-900">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative py-24 md:py-32">
+        <Image
+          src="/generated/emergency-hvac.webp"
+          alt="24/7 Emergency HVAC Service in Boise"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-red-900/90 to-red-700/80" />
+        <div className="relative z-10 container mx-auto px-4 text-center">
           <div className="flex justify-center mb-4">
             <Clock className="w-16 h-16 text-white" />
           </div>

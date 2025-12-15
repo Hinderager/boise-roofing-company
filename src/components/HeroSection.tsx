@@ -7,15 +7,17 @@ interface HeroSectionProps {
   city?: string
   headline?: string
   subheadline?: string
+  image?: string
 }
 
-export function HeroSection({ city, headline, subheadline }: HeroSectionProps = {}) {
+export function HeroSection({ city, headline, subheadline, image }: HeroSectionProps = {}) {
   const isHomePage = !city
+  const heroImage = image || "/generated/hero-hvac.webp"
 
   return (
     <section className="relative h-[580px] md:h-[900px] lg:h-[950px] flex items-start lg:items-center overflow-visible">
       <Image
-        src="/generated/hero.webp"
+        src={heroImage}
         alt={city ? `Professional HVAC Services - ${city} Idaho` : "Professional HVAC Services - Boise Idaho"}
         fill priority quality={85} sizes="100vw"
         className="object-cover object-center"

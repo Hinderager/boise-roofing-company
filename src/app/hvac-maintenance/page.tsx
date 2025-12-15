@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import { CheckCircle, Phone, Wrench, Calendar } from 'lucide-react'
 import Link from 'next/link'
 
@@ -39,8 +40,16 @@ const furnaceMaintenance = [
 export default function HVACMaintenancePage() {
   return (
     <main className="pt-20">
-      <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
-        <div className="container mx-auto px-4 text-center">
+      <section className="relative py-24 md:py-32">
+        <Image
+          src="/generated/hvac-maintenance.webp"
+          alt="HVAC Maintenance Service in Boise"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/90 to-dark-blue/70" />
+        <div className="relative z-10 container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">HVAC Maintenance</h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Keep your heating and cooling systems running efficiently with regular maintenance. Serving Boise, Meridian, Nampa, and the Treasure Valley.</p>
           <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">

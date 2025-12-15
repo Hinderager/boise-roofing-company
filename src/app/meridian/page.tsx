@@ -55,6 +55,7 @@ export default function MeridianPage() {
         city="Meridian"
         headline="HVAC Services in Meridian, Idaho"
         subheadline="Fast, reliable heating and cooling for Meridian homes."
+        image="/generated/meridian-hvac.webp"
       />
 
       <section className="py-16 bg-white">

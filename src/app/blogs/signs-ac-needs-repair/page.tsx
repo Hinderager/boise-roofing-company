@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Image from 'next/image'
 import Link from 'next/link'
 import { AlertTriangle, CheckCircle } from 'lucide-react'
 
@@ -14,8 +15,16 @@ export default function BlogPost() {
   return (
     <main className="pt-20">
       {/* Hero Section */}
-      <section className="py-16 bg-gradient-to-b from-dark-blue to-[#1a5a9e]">
-        <div className="container mx-auto px-4">
+      <section className="relative py-20 md:py-28">
+        <Image
+          src="/generated/ac-warning-signs.webp"
+          alt="Signs Your AC Needs Repair"
+          fill
+          priority
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/90 to-dark-blue/70" />
+        <div className="relative z-10 container mx-auto px-4">
           <Link
             href="/blogs"
             className="inline-flex items-center text-white/80 hover:text-white mb-4 transition-colors"

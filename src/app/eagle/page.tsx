@@ -55,6 +55,7 @@ export default function EaglePage() {
         city="Eagle"
         headline="HVAC Services in Eagle, Idaho"
         subheadline="Quality heating and cooling for Eagle homes."
+        image="/generated/eagle-hvac.webp"
       />
 
       <section className="py-16 bg-white">

@@ -55,6 +55,7 @@ export default function CaldwellPage() {
         city="Caldwell"
         headline="HVAC Services in Caldwell, Idaho"
         subheadline="Dependable heating and cooling for Caldwell homes."
+        image="/generated/caldwell-hvac.webp"
       />
 
       <section className="py-16 bg-white">

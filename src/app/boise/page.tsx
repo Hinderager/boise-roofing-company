@@ -55,6 +55,7 @@ export default function BoisePage() {
         city="Boise"
         headline="HVAC Services in Boise, Idaho"
         subheadline="Heating and cooling you can count on. Local techs, fair prices."
+        image="/generated/boise-hvac.webp"
       />
 
       <section className="py-16 bg-white">
