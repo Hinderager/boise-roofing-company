@@ -6,14 +6,14 @@ import { Button } from '@/components/ui/button'
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const staticReviews = [
-  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'Our AC stopped working on the hottest day of July. Called them and they had a tech out within 2 hours. Fixed the issue quickly and explained everything. Fair price, no pressure. Highly recommend!' },
-  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'Had them install a new furnace before winter hit. The crew was professional, cleaned up after themselves, and the new system works great. Our heating bills are noticeably lower now.' },
-  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'Used them for annual HVAC maintenance. Tech was knowledgeable and thorough. Found a small issue before it became a big problem. Great preventive service at a reasonable price.' },
-  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'Our heat pump was making strange noises. They diagnosed the problem accurately and had the parts to fix it same day. Very impressed with their expertise and efficiency.' },
-  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Honest company. They could have sold me a new AC unit but instead recommended a repair that cost a fraction. System has been running perfectly since. Will use them for all our HVAC needs.' },
-  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'Emergency furnace repair in January - they answered the phone at 10pm and had someone here by midnight. Saved us from a very cold night. These guys are the real deal.' },
-  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Just had a new AC system installed. From the estimate to final installation, everything was professional. The techs explained how to use the new thermostat and answered all my questions.' },
-  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Best HVAC company in Boise. Fast response, fair prices, quality work. They serviced both our AC and furnace and everything runs perfectly now. Friendly staff too!' },
+  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'Had our roof replaced after a hail storm damaged it. The crew was professional, finished in two days, and cleaned up everything. The new roof looks amazing and the price was fair.' },
+  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'Called them about a leak we noticed in our bedroom ceiling. They came out the same day, found the problem, and fixed it quickly. No more leaks and they matched the shingles perfectly.' },
+  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'Got a roof inspection before buying our house. The inspector was thorough and explained everything he found. Report was detailed and helped us negotiate a better price. Worth every penny.' },
+  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'We needed a complete roof replacement on our older home. They helped us pick the right materials, got it done on schedule, and our house looks better than ever. Great workmanship.' },
+  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Honest roofing company. Thought we needed a new roof but they repaired the damaged section instead. Saved us thousands. That kind of honesty is rare these days.' },
+  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'Wind storm tore off some shingles and they had someone out within hours to tarp it. Came back a few days later and completed the repairs. Quick response when we really needed it.' },
+  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Just had a metal roof installed on our shop. The crew knew what they were doing and finished faster than expected. Quality work at a competitive price. Highly recommend them.' },
+  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Best roofing company in Boise. From estimate to completion, everything was smooth. They showed up when they said they would and did excellent work. Our roof is perfect!' },
 ]
 
 export function GoogleReviews() {

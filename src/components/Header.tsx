@@ -7,50 +7,50 @@ import { Button } from '@/components/ui/button'
 
 const serviceCategories = [
   {
-    name: 'Air Conditioning',
-    href: '/services/air-conditioning',
+    name: 'Roof Installation',
+    href: '/services/roof-installation',
     services: [
-      { name: 'AC Repair', href: '/services/air-conditioning/ac-repair' },
-      { name: 'AC Maintenance', href: '/services/air-conditioning/ac-maintenance' },
-      { name: 'AC Installation', href: '/services/air-conditioning/ac-installation' },
-      { name: 'Emergency AC Repair', href: '/services/air-conditioning/emergency-ac-repair' },
-      { name: 'Thermostat Repair', href: '/services/air-conditioning/thermostat-repair' },
+      { name: 'New Roof Installation', href: '/services/roof-installation/new-roof' },
+      { name: 'Roof Replacement', href: '/services/roof-installation/roof-replacement' },
+      { name: 'Shingle Roofing', href: '/services/roof-installation/shingle-roofing' },
+      { name: 'Metal Roofing', href: '/services/roof-installation/metal-roofing' },
+      { name: 'Tile Roofing', href: '/services/roof-installation/tile-roofing' },
     ]
   },
   {
-    name: 'Heating',
-    href: '/services/heating',
+    name: 'Roof Repair',
+    href: '/services/roof-repair',
     services: [
-      { name: 'Heater Repair', href: '/services/heating/heater-repair' },
-      { name: 'Heater Maintenance', href: '/services/heating/heater-maintenance' },
-      { name: 'Heater Installation', href: '/services/heating/heater-installation' },
+      { name: 'Leak Repair', href: '/services/roof-repair/leak-repair' },
+      { name: 'Storm Damage Repair', href: '/services/roof-repair/storm-damage' },
+      { name: 'Emergency Repair', href: '/services/roof-repair/emergency-repair' },
     ]
   },
   {
-    name: 'Furnaces',
-    href: '/services/furnaces',
+    name: 'Roof Inspection',
+    href: '/services/roof-inspection',
     services: [
-      { name: 'Furnace Repair', href: '/services/furnaces/furnace-repair' },
-      { name: 'Furnace Maintenance', href: '/services/furnaces/furnace-maintenance' },
-      { name: 'Furnace Installation', href: '/services/furnaces/furnace-installation' },
+      { name: 'Pre-Purchase Inspection', href: '/services/roof-inspection/pre-purchase' },
+      { name: 'Annual Inspection', href: '/services/roof-inspection/annual-inspection' },
+      { name: 'Storm Damage Assessment', href: '/services/roof-inspection/storm-assessment' },
     ]
   },
   {
-    name: 'Heat Pumps',
-    href: '/services/heat-pumps',
+    name: 'Roof Maintenance',
+    href: '/services/roof-maintenance',
     services: [
-      { name: 'Heat Pump Repair', href: '/services/heat-pumps/heat-pump-repair' },
-      { name: 'Heat Pump Maintenance', href: '/services/heat-pumps/heat-pump-maintenance' },
-      { name: 'Heat Pump Installation', href: '/services/heat-pumps/heat-pump-installation' },
+      { name: 'Preventive Maintenance', href: '/services/roof-maintenance/preventive' },
+      { name: 'Gutter Cleaning', href: '/services/roof-maintenance/gutter-cleaning' },
+      { name: 'Roof Cleaning', href: '/services/roof-maintenance/roof-cleaning' },
     ]
   },
   {
-    name: 'Indoor Air Quality',
-    href: '/services/indoor-air-quality',
+    name: 'Specialty Services',
+    href: '/services/specialty',
     services: [
-      { name: 'Air Purifiers', href: '/services/indoor-air-quality/air-purifiers' },
-      { name: 'Duct Cleaning', href: '/services/indoor-air-quality/duct-cleaning' },
-      { name: 'UV Light Installation', href: '/services/indoor-air-quality/uv-light-installation' },
+      { name: 'Skylight Installation', href: '/services/specialty/skylight-installation' },
+      { name: 'Chimney Flashing', href: '/services/specialty/chimney-flashing' },
+      { name: 'Ventilation Systems', href: '/services/specialty/ventilation' },
     ]
   },
 ]
@@ -101,7 +101,7 @@ export function Header() {
         <div className="bg-[#10477d] lg:rounded-lg border-b-2 lg:border-2 border-[#1e3a5f] shadow-xl px-2 sm:px-4 md:px-6 lg:px-8 flex items-center h-14 lg:h-20">
           <Link href="/" className="flex items-center lg:flex-1 flex-1 justify-start">
             <span className="text-lg sm:text-xl lg:text-2xl font-bold text-white">
-              Boise <span className="text-[#FFC845]">HVAC</span> Pros
+              Boise <span className="text-[#FFC845]">Roofing</span> Co
             </span>
           </Link>
 
@@ -182,7 +182,7 @@ export function Header() {
                 <div className="absolute left-0 top-full mt-2 w-[200px] bg-white shadow-lg rounded-lg p-4">
                   <ul className="space-y-2">
                     <li><Link href="/resources/faq" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">FAQ</Link></li>
-                    <li><Link href="/resources/hvac-tips" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">HVAC Tips</Link></li>
+                    <li><Link href="/resources/roofing-tips" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Roofing Tips</Link></li>
                     <li><Link href="/resources/repair-vs-replace" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Repair vs Replace</Link></li>
                     <li><Link href="/resources/financing" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Financing</Link></li>
                     <li><Link href="/blogs" className="text-sm text-gray-600 hover:text-[#0b7fb6] transition-colors">Blog</Link></li>

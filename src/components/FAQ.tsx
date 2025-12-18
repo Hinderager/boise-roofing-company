@@ -5,13 +5,13 @@ import { ChevronDown } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
 export const faqs = [
-  { question: 'How much does HVAC repair cost?', answer: 'Most repairs run between $150-500 depending on the issue. Diagnostic fees typically start around $89 and get applied to the repair cost if you move forward. We always provide upfront pricing before any work begins.' },
-  { question: 'How often should I service my HVAC system?', answer: 'We recommend a tune-up twice a year—once in spring for your AC and once in fall for your furnace. Regular maintenance catches small problems before they become expensive repairs and keeps your system running efficiently.' },
-  { question: 'Do you offer 24/7 emergency service?', answer: 'Yes. No heat in the middle of winter or AC failure during a heat wave? We get it—some things can\'t wait. Our emergency technicians are available around the clock, including weekends and holidays.' },
-  { question: 'How long does a new AC or furnace installation take?', answer: 'Most standard installations take one day. If we\'re replacing both your furnace and AC or doing ductwork modifications, it might take two days. We\'ll give you a timeline before we start.' },
-  { question: 'What brands do you work on?', answer: 'We service all major brands—Carrier, Trane, Lennox, Rheem, Goodman, Bryant, American Standard, and more. Our techs are trained to diagnose and repair any make or model.' },
-  { question: 'How do I know if I need a repair or replacement?', answer: 'Generally, if your system is over 15 years old and needs a repair costing more than half a new unit, replacement makes more sense. We\'ll always give you honest advice and both options so you can decide what\'s right for your situation.' },
-  { question: 'Do you offer financing?', answer: 'Yes, we offer flexible financing options on new equipment installations. Get a new system now and pay over time with approved credit. Ask us about current promotions.' },
+  { question: 'How much does a new roof cost?', answer: 'Most residential roofs in Boise run between $5,000-15,000 depending on size, materials, and pitch. We provide free estimates with transparent pricing so you know exactly what to expect before we start.' },
+  { question: 'How long does a roof installation take?', answer: 'Most residential roofs take 1-3 days depending on size and complexity. Weather can affect the timeline, but we\'ll keep you updated throughout the process.' },
+  { question: 'How often should I have my roof inspected?', answer: 'We recommend an annual inspection, plus after any major storm. Regular inspections catch small issues before they become expensive problems and help your roof last longer.' },
+  { question: 'What types of roofing do you install?', answer: 'We install asphalt shingles, metal roofing, tile, and specialty materials. Each has different benefits and lifespans. We\'ll help you pick what makes sense for your home and budget.' },
+  { question: 'Do you handle insurance claims?', answer: 'Yes, we work with insurance companies regularly for storm damage claims. We can help document damage, meet with adjusters, and handle the paperwork to make the process easier.' },
+  { question: 'How do I know if I need repair or replacement?', answer: 'If your roof is under 15 years old with isolated damage, repair usually makes sense. Over 20 years with widespread issues? Replacement is often more cost-effective. We\'ll give you honest advice on both options.' },
+  { question: 'Do you offer warranties?', answer: 'Yes, we provide workmanship warranties on all installations, and most roofing materials come with manufacturer warranties ranging from 20-50 years depending on the product.' },
 ]
 
 export function FAQ() {
