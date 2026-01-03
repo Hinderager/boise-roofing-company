@@ -4,7 +4,7 @@ import { ArrowLeft, Phone, Cloud, Zap, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Emergency Roofing Services in Boise | Top Shelf Roofing",
-  description: "24/7 emergency roof repair in Boise. Storm damage, leaks, and urgent roofing problems. Fast response. Call (208) 505-9352 now.",
+  description: "24/7 emergency roof repair in Boise. Storm damage, leaks, and urgent roofing problems. Fast response. Call (208) 768-3987 now.",
   openGraph: {
     title: "Emergency Roofing Services in Boise | Top Shelf Roofing",
     description: "24/7 emergency roof repair in Boise. Fast response to storm damage and urgent leaks.",
@@ -32,11 +32,11 @@ export default function EmergencyRoofing() {
             Storm damage? Active leak? We'll get there fast.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-flex items-center gap-2 bg-white text-red-600 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-colors mt-6"
           >
             <Phone className="w-5 h-5" />
-            Call (208) 505-9352 Now
+            Call (208) 768-3987 Now
           </a>
         </div>
       </section>
@@ -252,11 +252,11 @@ export default function EmergencyRoofing() {
             Call now. We'll respond as quickly as we can.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-flex items-center gap-2 bg-red-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition-colors"
           >
             <Phone className="w-5 h-5" />
-            Call (208) 505-9352 Now
+            Call (208) 768-3987 Now
           </a>
         </div>
       </section>

@@ -24,8 +24,8 @@ export function StructuredData({ city = 'Boise' }: { city?: string }) {
     "name": `Boise Roofing Company - ${city}`,
     "description": `Professional roofing services in ${city}, Idaho. Roof installation, replacement, repair, inspection & maintenance. Licensed and insured. Free estimates.`,
     "url": "https://boise-roofing-company.com",
-    "telephone": "+1-208-505-9352",
-    "email": "info@boise-roofing-company.com",
+    "telephone": "+1-208-768-3987",
+    "email": "info@topshelfpros.com",
     "address": { "@type": "PostalAddress", "addressLocality": city, "addressRegion": "ID", "addressCountry": "US" },
     "geo": { "@type": "GeoCoordinates", "latitude": coords.lat, "longitude": coords.lng },
     "areaServed": [

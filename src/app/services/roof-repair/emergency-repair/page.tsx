@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Emergency Roof Repair Boise | Top Shelf Roofing | (208) 505-9352",
-  description: "24/7 emergency roof repair. Fast response when you can't wait. Call (208) 505-9352.",
+  title: "Emergency Roof Repair Boise | Top Shelf Roofing | (208) 768-3987",
+  description: "24/7 emergency roof repair. Fast response when you can't wait. Call (208) 768-3987.",
 };
 
 export default function EmergencyRepairPage() {
@@ -35,7 +35,7 @@ export default function EmergencyRepairPage() {
             <div className="bg-red-50 p-8 rounded-lg mt-12 border-2 border-red-200">
               <h3 className="text-2xl font-bold mb-4">Roofing Emergency?</h3>
               <p className="mb-6">Call now for emergency repair service.</p>
-              <a href="tel:2085059352" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">Call (208) 505-9352</a>
+              <a href="tel:2087683987" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">Call (208) 768-3987</a>
             </div>
           </div>
         </div>

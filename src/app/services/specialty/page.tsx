@@ -4,7 +4,7 @@ import { ArrowLeft, Star, Wrench, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Specialty Roofing Services in Boise | Top Shelf Roofing",
-  description: "Specialty roofing services in Boise. Skylights, chimney flashing, ventilation systems, and more. Expert installation. Call (208) 505-9352.",
+  description: "Specialty roofing services in Boise. Skylights, chimney flashing, ventilation systems, and more. Expert installation. Call (208) 768-3987.",
   openGraph: {
     title: "Specialty Roofing Services in Boise | Top Shelf Roofing",
     description: "Expert specialty roofing services for unique needs.",
@@ -115,8 +115,8 @@ export default function SpecialtyServices() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-4">Get Expert Help</h2>
           <p className="text-xl text-gray-600 mb-8">Call us to discuss your specialty roofing project.</p>
-          <a href="tel:2085059352" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-            Call (208) 505-9352
+          <a href="tel:2087683987" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
+            Call (208) 768-3987
           </a>
         </div>
       </section>

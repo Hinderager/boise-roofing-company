@@ -4,7 +4,7 @@ import { ArrowLeft, Home, CheckCircle, Wrench } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Roof Installation Services in Boise | Top Shelf Roofing",
-  description: "Professional roof installation in Boise. New roofs, replacements, and all roofing materials. 30+ years experience. Call (208) 505-9352 for a free estimate.",
+  description: "Professional roof installation in Boise. New roofs, replacements, and all roofing materials. 30+ years experience. Call (208) 768-3987 for a free estimate.",
   openGraph: {
     title: "Roof Installation Services in Boise | Top Shelf Roofing",
     description: "Expert roof installation for homes and businesses in Boise.",
@@ -169,10 +169,10 @@ export default function RoofInstallation() {
             Call us today to schedule your roof installation estimate.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 768-3987
           </a>
         </div>
       </section>

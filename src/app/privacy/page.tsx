@@ -2,8 +2,8 @@ import { Metadata } from 'next'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Boise HVAC Pros',
-  description: 'Privacy policy for Boise HVAC Pros - how we collect, use, and protect your personal information.',
+  title: 'Privacy Policy | Boise Roofing Co',
+  description: 'Privacy policy for Boise Roofing Co - how we collect, use, and protect your personal information.',
   alternates: {
     canonical: 'https://boise-roofing-company.com/privacy',
   },
@@ -19,7 +19,7 @@ export default function PrivacyPage() {
 
           <div className="prose prose-lg max-w-none text-gray-600">
             <p>
-              Boise HVAC Pros (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+              Boise Roofing Co (&quot;we,&quot; &quot;us,&quot; or &quot;our&quot;) respects your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
 
             <h2 className="text-2xl font-bold text-gunmetal mt-8 mb-4">Information We Collect</h2>
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
             <ul>
               <li>Name and contact information (phone number, email address)</li>
               <li>Service address and location information</li>
-              <li>Details about your HVAC system and service needs</li>
+              <li>Details about your roof condition and service needs</li>
               <li>Preferred appointment dates and times</li>
               <li>Payment information (when applicable)</li>
             </ul>
@@ -47,11 +47,11 @@ export default function PrivacyPage() {
             <p>We use the information we collect to:</p>
             <ul>
               <li>Respond to your inquiries and provide quotes</li>
-              <li>Schedule and perform HVAC services</li>
-              <li>Communicate with you about your service appointment</li>
+              <li>Schedule and perform roofing services</li>
+              <li>Communicate with you about your roofing appointment</li>
               <li>Send appointment reminders and follow-up communications</li>
               <li>Process payments for services rendered</li>
-              <li>Send maintenance reminders and seasonal service recommendations</li>
+              <li>Send roof maintenance reminders and seasonal inspection recommendations</li>
               <li>Improve our website and services</li>
               <li>Comply with legal obligations</li>
             </ul>
@@ -109,8 +109,8 @@ export default function PrivacyPage() {
               If you have questions about this Privacy Policy or our privacy practices, please contact us:
             </p>
             <ul>
-              <li><strong>Phone:</strong> (208) 505-9352</li>
-              <li><strong>Email:</strong> info@boise-roofing-company.com</li>
+              <li><strong>Phone:</strong> (208) 768-3987</li>
+              <li><strong>Email:</strong> info@topshelfpros.com</li>
             </ul>
           </div>
 

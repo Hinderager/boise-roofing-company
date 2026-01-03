@@ -95,8 +95,8 @@ export default function RepairvsReplacePage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold mb-4">Not Sure What You Need?</h2>
           <p className="text-xl text-gray-600 mb-8">Let's take a look. Free inspections, honest answers.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors">
-            <Phone className="w-5 h-5" />Call (208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-blue-600 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-700 transition-colors">
+            <Phone className="w-5 h-5" />Call (208) 768-3987
           </a>
         </div>
       </section>

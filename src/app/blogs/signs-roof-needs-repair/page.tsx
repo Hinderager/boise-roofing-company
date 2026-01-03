@@ -251,10 +251,10 @@ export default function SignsRoofNeedsRepair() {
             Call us for a free inspection. We'll tell you exactly what's going on.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 768-3987
           </a>
         </div>
       </section>

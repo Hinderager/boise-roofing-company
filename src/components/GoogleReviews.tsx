@@ -6,14 +6,10 @@ import { Button } from '@/components/ui/button'
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const staticReviews = [
-  { author: 'Mike R.', relative_time: '2 weeks ago', rating: 5, text: 'Had our roof replaced after a hail storm damaged it. The crew was professional, finished in two days, and cleaned up everything. The new roof looks amazing and the price was fair.' },
-  { author: 'Sarah T.', relative_time: '1 month ago', rating: 5, text: 'Called them about a leak we noticed in our bedroom ceiling. They came out the same day, found the problem, and fixed it quickly. No more leaks and they matched the shingles perfectly.' },
-  { author: 'David L.', relative_time: '3 weeks ago', rating: 5, text: 'Got a roof inspection before buying our house. The inspector was thorough and explained everything he found. Report was detailed and helped us negotiate a better price. Worth every penny.' },
-  { author: 'Jennifer M.', relative_time: '2 months ago', rating: 5, text: 'We needed a complete roof replacement on our older home. They helped us pick the right materials, got it done on schedule, and our house looks better than ever. Great workmanship.' },
-  { author: 'Chris B.', relative_time: '1 week ago', rating: 5, text: 'Honest roofing company. Thought we needed a new roof but they repaired the damaged section instead. Saved us thousands. That kind of honesty is rare these days.' },
-  { author: 'Amanda K.', relative_time: '1 month ago', rating: 5, text: 'Wind storm tore off some shingles and they had someone out within hours to tarp it. Came back a few days later and completed the repairs. Quick response when we really needed it.' },
-  { author: 'Tom H.', relative_time: '3 weeks ago', rating: 5, text: 'Just had a metal roof installed on our shop. The crew knew what they were doing and finished faster than expected. Quality work at a competitive price. Highly recommend them.' },
-  { author: 'Lisa P.', relative_time: '2 weeks ago', rating: 5, text: 'Best roofing company in Boise. From estimate to completion, everything was smooth. They showed up when they said they would and did excellent work. Our roof is perfect!' },
+  { author: 'Rachelle Tridle', rating: 5, text: 'Top Shelf Junk Removers were awesome! They showed up on time, took everything that was quoted — plus a few extra items I had on site — with no hassle. Super fast, efficient, affordable, and even had change because I paid with cash!. Great service all around. Highly recommend!' },
+  { author: 'Jeff Rau', rating: 5, text: 'Exceptional service and response from Top Shelf. Cleaning out a family home and we were able to fill a 15 cubic yard dumpster twice! Both deliveries were very timely and working with Top Shelf staff was great! Thank you for helping make our chore easier and efficient. I would easily recommend this business to others.' },
+  { author: 'Katrina Vincent', rating: 5, text: 'We recently hired Top Shelf to assist a client who had been a long time tenant for the company I work for, it was a big project, riddled with challenges. They far exceeded my expectations. Not only did they arrive on time and get right to work, they treated our clients with kindness and respect. They were extremely helpful and hard working. They accommodated our needs for appointment times and seemed to really want to earn our business. I hope to be able to utilize their services again! Would very highly recommend.' },
+  { author: 'Kevin McSpadden', rating: 5, text: 'Eric and Gabe were great. Positive attitude and tackled the job without complaint Pricing was great and will definitely use them again!' },
 ]
 
 export function GoogleReviews() {
@@ -21,7 +17,7 @@ export function GoogleReviews() {
   const [expandedReviews, setExpandedReviews] = useState(false)
   const reviewsPerPage = 4
   const rating = 4.9
-  const totalReviews = 150
+  const totalReviews = 323
 
   const nextSlide = () => setCurrentIndex((prev) => prev + reviewsPerPage >= staticReviews.length ? 0 : prev + reviewsPerPage)
   const prevSlide = () => setCurrentIndex((prev) => prev - reviewsPerPage < 0 ? Math.max(0, staticReviews.length - reviewsPerPage) : prev - reviewsPerPage)
@@ -59,7 +55,6 @@ export function GoogleReviews() {
                     </div>
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-1"><h3 className="font-semibold text-gray-900 truncate">{review.author}</h3><svg className="w-4 h-4 text-[#4285f4] flex-shrink-0" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg></div>
-                      <p className="text-sm text-gray-500">{review.relative_time}</p>
                     </div>
                   </div>
                   <div className="flex gap-1 mb-3">{[...Array(5)].map((_, i) => <Star key={i} className="w-5 h-5 fill-[#fbbc04] text-[#fbbc04]" />)}</div>
@@ -78,7 +73,7 @@ export function GoogleReviews() {
         </div>
         {staticReviews.length > reviewsPerPage && <div className="flex justify-center gap-2 mt-8">{Array.from({ length: Math.ceil(staticReviews.length / reviewsPerPage) }).map((_, idx) => <button key={idx} onClick={() => setCurrentIndex(idx * reviewsPerPage)} className={`w-2 h-2 rounded-full transition-all ${Math.floor(currentIndex / reviewsPerPage) === idx ? 'bg-light-blue w-8' : 'bg-gray-300 hover:bg-gray-400'}`} />)}</div>}
         <div className="flex flex-row gap-4 justify-center mt-12">
-          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow"><a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a></Button>
+          <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow"><a href="tel:2087683987"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 768-3987</span></a></Button>
         </div>
       </div>
     </section>

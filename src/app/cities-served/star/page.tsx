@@ -4,9 +4,9 @@ import Link from 'next/link'
 import { CheckCircle, MapPin, Phone, ArrowRight } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'HVAC Services Star Idaho | AC & Heating | Boise HVAC Pros',
-  description: 'Professional HVAC services in Star, Idaho. AC repair, furnace installation, heating services. Licensed & insured. 24/7 emergency service. Call (208) 505-9352.',
-  keywords: ['HVAC Star', 'AC repair Star Idaho', 'furnace repair Star', 'heating services Star', 'air conditioning Star'],
+  title: 'Roofing Services Star Idaho | Roof Repair & Installation | Boise Roofing Co',
+  description: 'Professional roofing services in Star, Idaho. Roof repair, replacement, installation, inspection & maintenance. Licensed & insured. Free estimates. Call (208) 768-3987.',
+  keywords: ['roofing Star', 'roof repair Star Idaho', 'roof replacement Star', 'roof installation Star', 'roofing contractor Star'],
   alternates: {
     canonical: 'https://boise-roofing-company.com/cities-served/star',
   },
@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 const neighborhoods = ['Downtown Star', 'North Star', 'South Star', 'Star River', 'Lanark']
 
 const services = [
-  { name: 'AC Repair', href: '/cities-served/star/ac-repair', description: 'Fast air conditioning repair' },
-  { name: 'AC Installation', href: '/cities-served/star/ac-installation', description: 'New AC system installation' },
-  { name: 'Furnace Repair', href: '/cities-served/star/furnace-repair', description: 'Expert furnace repair' },
-  { name: 'Furnace Installation', href: '/cities-served/star/furnace-installation', description: 'New furnace installation' },
-  { name: 'Heat Pump Service', href: '/cities-served/star/heat-pump-repair', description: 'Heat pump repair & install' },
-  { name: 'HVAC Maintenance', href: '/cities-served/star/hvac-maintenance', description: 'Preventive maintenance' },
+  { name: 'Roof Repair', href: '/services/roof-repair', description: 'Fast, reliable roof repairs' },
+  { name: 'Roof Replacement', href: '/services/roof-replacement', description: 'Complete roof replacement' },
+  { name: 'Roof Installation', href: '/services/roof-installation', description: 'New roof installation' },
+  { name: 'Roof Inspection', href: '/services/roof-inspection', description: 'Thorough roof inspection' },
+  { name: 'Shingle Roofing', href: '/services/shingle-roofing', description: 'Asphalt shingle roofing' },
+  { name: 'Metal Roofing', href: '/services/metal-roofing', description: 'Metal roof installation' },
 ]
 
 export default function StarPage() {
@@ -28,18 +28,18 @@ export default function StarPage() {
     <main className="pt-20">
       <section className="relative py-24 md:py-32">
         <Image
-          src="/generated/star-hvac.webp"
-          alt="HVAC Services in Star, Idaho"
+          src="/generated/star-roofing.webp"
+          alt="Roofing Services in Star, Idaho"
           fill
           priority
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-dark-blue/90 to-dark-blue/70" />
         <div className="relative z-10 container mx-auto px-4 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">HVAC Services in Star</h1>
-          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional heating and cooling services for Star homes and businesses. Licensed, insured, and available 24/7.</p>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">Roofing Services in Star</h1>
+          <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">Professional roofing installation, repair, and maintenance services for Star homes and businesses. Licensed, insured, and committed to quality.</p>
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>
@@ -47,10 +47,10 @@ export default function StarPage() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-dark-blue mb-6">Star HVAC Services</h2>
+            <h2 className="text-3xl font-bold text-dark-blue mb-6">Star Roofing Services</h2>
             <div className="prose prose-lg max-w-none text-gray-600 mb-8">
-              <p>Star is a fast-growing community west of Eagle. With hot summers and cold winters typical of the Treasure Valley, your HVAC system works hard year-round. When you need heating or cooling service in Star, Boise HVAC Pros is here to help.</p>
-              <p>We've served Star homeowners for years, handling everything from emergency AC repairs during summer heat waves to furnace installations before winter hits. Our technicians know Star homes and the unique HVAC challenges they face.</p>
+              <p>Star is a fast-growing community west of Eagle. With hot summers and cold winters typical of the Treasure Valley, your roof protects your home from extreme weather year-round. When you need roofing service in Star, Boise Roofing Co is here to help.</p>
+              <p>We've served Star homeowners for years, handling everything from emergency storm damage repairs to complete roof replacements. Our crews know Star homes and the unique roofing challenges they face in Idaho's high desert climate.</p>
             </div>
 
             <h3 className="text-2xl font-bold text-dark-blue mb-6">Our Services in Star</h3>
@@ -85,7 +85,7 @@ export default function StarPage() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
-                <span className="text-gray-700"><strong>24/7 Emergency:</strong> HVAC emergencies don't wait—neither do we.</span>
+                <span className="text-gray-700"><strong>Emergency Service:</strong> Storm damage doesn't wait—neither do we.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />
@@ -94,10 +94,10 @@ export default function StarPage() {
             </ul>
 
             <div className="mt-12 p-8 bg-dark-blue rounded-xl text-center">
-              <h3 className="text-2xl font-bold text-white mb-4">Need HVAC Service in Star?</h3>
-              <p className="text-gray-300 mb-6">Call us for a free estimate. We'll get your system running right.</p>
-              <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-                <Phone className="w-5 h-5" />(208) 505-9352
+              <h3 className="text-2xl font-bold text-white mb-4">Need Roofing Service in Star?</h3>
+              <p className="text-gray-300 mb-6">Call us for a free estimate. We'll keep your home protected.</p>
+              <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+                <Phone className="w-5 h-5" />(208) 768-3987
               </a>
             </div>
           </div>

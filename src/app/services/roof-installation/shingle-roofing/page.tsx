@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Shingle Roofing Installation Boise | Top Shelf Roofing | (208) 505-9352",
-  description: "Professional asphalt shingle roof installation in Boise. All major brands, expert installation. Call (208) 505-9352.",
+  title: "Shingle Roofing Installation Boise | Top Shelf Roofing | (208) 768-3987",
+  description: "Professional asphalt shingle roof installation in Boise. All major brands, expert installation. Call (208) 768-3987.",
 };
 
 export default function ShingleRoofingPage() {
@@ -41,8 +41,8 @@ export default function ShingleRoofingPage() {
             <div className="bg-gray-50 p-8 rounded-lg mt-12">
               <h3 className="text-2xl font-bold mb-4">Get Your Free Estimate</h3>
               <p className="mb-6">Call us for a shingle roofing estimate.</p>
-              <a href="tel:2085059352" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">
-                Call (208) 505-9352
+              <a href="tel:2087683987" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">
+                Call (208) 768-3987
               </a>
             </div>
           </div>

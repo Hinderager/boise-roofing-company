@@ -5,6 +5,7 @@ import './globals.css'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { StructuredData } from '@/components/StructuredData'
+import { BreadcrumbSchema } from '@/components/BreadcrumbSchema'
 import { QuoteFormProvider } from '@/context/QuoteFormContext'
 
 const montserrat = Montserrat({
@@ -24,10 +25,10 @@ const oswald = Oswald({
 export const metadata: Metadata = {
   metadataBase: new URL('https://boise-roofing-company.com'),
   title: {
-    default: 'Boise Roofing Company | Roof Installation & Repair Idaho',
-    template: '%s | Boise Roofing Co',
+    default: 'Boise Roofing Company | Licensed & Insured | Top Shelf',
+    template: '%s | Boise Roofing',
   },
-  description: 'Professional roofing services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Roof installation, replacement, repair, inspection & maintenance. Licensed & insured. Free estimates. Call (208) 505-9352.',
+  description: 'Professional roofing services in Boise, Meridian, Nampa, Caldwell & Eagle Idaho. Roof installation, replacement, repair, inspection & maintenance. Licensed & insured. Free estimates. Call (208) 768-3987.',
   keywords: [
     'roofing Boise',
     'roof repair Boise Idaho',
@@ -82,6 +83,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <StructuredData />
+        <BreadcrumbSchema siteName="Top Shelf Roofing" siteUrl="https://boise-roofing-company.com" />
         <link rel="dns-prefetch" href="https://www.google.com" />
         <link rel="preconnect" href="https://www.google.com" crossOrigin="anonymous" />
       </head>

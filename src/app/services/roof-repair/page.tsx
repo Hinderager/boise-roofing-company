@@ -4,7 +4,7 @@ import { ArrowLeft, Wrench, AlertTriangle, Clock, CheckCircle } from "lucide-rea
 
 export const metadata: Metadata = {
   title: "Roof Repair Services in Boise | Top Shelf Roofing",
-  description: "Fast, reliable roof repairs in Boise and the Treasure Valley. We fix leaks, damaged shingles, flashing issues, and more. Call (208) 505-9352 for a free estimate.",
+  description: "Fast, reliable roof repairs in Boise and the Treasure Valley. We fix leaks, damaged shingles, flashing issues, and more. Call (208) 768-3987 for a free estimate.",
   openGraph: {
     title: "Roof Repair Services in Boise | Top Shelf Roofing",
     description: "Fast, reliable roof repairs in Boise. We fix leaks, damaged shingles, and more.",
@@ -182,10 +182,10 @@ export default function RoofRepair() {
             Call us today for a free inspection and estimate.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 768-3987
           </a>
         </div>
       </section>

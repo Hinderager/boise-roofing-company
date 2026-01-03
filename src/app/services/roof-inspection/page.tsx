@@ -4,7 +4,7 @@ import { ArrowLeft, Search, Camera, FileText, AlertCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Roof Inspection Services in Boise | Top Shelf Roofing",
-  description: "Professional roof inspections in Boise. We catch problems early before they become expensive. Free inspections available. Call (208) 505-9352.",
+  description: "Professional roof inspections in Boise. We catch problems early before they become expensive. Free inspections available. Call (208) 768-3987.",
   openGraph: {
     title: "Roof Inspection Services in Boise | Top Shelf Roofing",
     description: "Professional roof inspections in Boise. Catch problems early before they get expensive.",
@@ -212,10 +212,10 @@ export default function RoofInspection() {
             Free visual inspections for potential customers. Call today.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 768-3987
           </a>
         </div>
       </section>

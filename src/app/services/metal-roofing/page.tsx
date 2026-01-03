@@ -4,7 +4,7 @@ import { ArrowLeft, Zap, TrendingUp, Shield, DollarSign } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Metal Roofing Installation in Boise | Top Shelf Roofing",
-  description: "Professional metal roof installation in Boise. Long-lasting, energy-efficient, and durable. Standing seam and metal shingles. Call (208) 505-9352 for a quote.",
+  description: "Professional metal roof installation in Boise. Long-lasting, energy-efficient, and durable. Standing seam and metal shingles. Call (208) 768-3987 for a quote.",
   openGraph: {
     title: "Metal Roofing Installation in Boise | Top Shelf Roofing",
     description: "Professional metal roof installation in Boise. Long-lasting and energy-efficient.",
@@ -358,10 +358,10 @@ export default function MetalRoofing() {
             Let's talk about whether metal roofing is right for your home.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 768-3987
           </a>
         </div>
       </section>

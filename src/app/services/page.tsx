@@ -4,7 +4,7 @@ import { ArrowRight, Phone } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Roofing Services in Boise | Top Shelf Roofing',
-  description: 'Complete roofing services in Boise and the Treasure Valley. Roof repair, replacement, inspections, and more. Call (208) 505-9352.',
+  description: 'Complete roofing services in Boise and the Treasure Valley. Roof repair, replacement, inspections, and more. Call (208) 768-3987.',
   alternates: { canonical: 'https://boise-roofing-company.com/services' },
 }
 
@@ -42,8 +42,8 @@ export default function ServicesPage() {
       <section className="py-12 bg-dark-blue text-center">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl font-bold text-white mb-4">Need Roofing Service?</h2>
-          <a href="tel:2085059352" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
-            <Phone className="w-5 h-5" />(208) 505-9352
+          <a href="tel:2087683987" className="inline-flex items-center gap-2 bg-[#FFC845] text-dark-blue px-8 py-3 rounded-lg font-bold text-lg hover:bg-yellow-400 transition-colors">
+            <Phone className="w-5 h-5" />(208) 768-3987
           </a>
         </div>
       </section>

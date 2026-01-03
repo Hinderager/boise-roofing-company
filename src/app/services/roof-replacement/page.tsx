@@ -4,7 +4,7 @@ import { ArrowLeft, Home, DollarSign, Calendar, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Roof Replacement Services in Boise | Top Shelf Roofing",
-  description: "Complete roof replacement services in Boise and the Treasure Valley. Quality materials, skilled crews, fair pricing. Call (208) 505-9352 for a free estimate.",
+  description: "Complete roof replacement services in Boise and the Treasure Valley. Quality materials, skilled crews, fair pricing. Call (208) 768-3987 for a free estimate.",
   openGraph: {
     title: "Roof Replacement Services in Boise | Top Shelf Roofing",
     description: "Complete roof replacement services in Boise. Quality materials, skilled crews, fair pricing.",
@@ -217,10 +217,10 @@ export default function RoofReplacement() {
             Get a free estimate from a local roofing company you can trust.
           </p>
           <a
-            href="tel:2085059352"
+            href="tel:2087683987"
             className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
           >
-            Call (208) 505-9352
+            Call (208) 768-3987
           </a>
         </div>
       </section>

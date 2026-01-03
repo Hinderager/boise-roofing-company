@@ -4,7 +4,7 @@ import { ArrowLeft, Shield, CheckCircle, Calendar } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Roof Maintenance Services in Boise | Top Shelf Roofing",
-  description: "Professional roof maintenance in Boise. Preventive care, gutter cleaning, roof cleaning. Extend your roof's life. Call (208) 505-9352.",
+  description: "Professional roof maintenance in Boise. Preventive care, gutter cleaning, roof cleaning. Extend your roof's life. Call (208) 768-3987.",
   openGraph: {
     title: "Roof Maintenance Services in Boise | Top Shelf Roofing",
     description: "Extend your roof's life with professional maintenance.",
@@ -112,8 +112,8 @@ export default function RoofMaintenance() {
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-3xl font-bold mb-4">Schedule Roof Maintenance</h2>
           <p className="text-xl text-gray-600 mb-8">Call us to discuss a maintenance program for your property.</p>
-          <a href="tel:2085059352" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-            Call (208) 505-9352
+          <a href="tel:2087683987" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
+            Call (208) 768-3987
           </a>
         </div>
       </section>

@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Roof Ventilation Systems Boise | Top Shelf Roofing | (208) 505-9352",
-  description: "Roof ventilation installation. Extend roof life, save energy. Ridge vents, soffit vents. Call (208) 505-9352.",
+  title: "Roof Ventilation Systems Boise | Top Shelf Roofing | (208) 768-3987",
+  description: "Roof ventilation installation. Extend roof life, save energy. Ridge vents, soffit vents. Call (208) 768-3987.",
 };
 
 export default function VentilationPage() {
@@ -35,7 +35,7 @@ export default function VentilationPage() {
             <div className="bg-gray-50 p-8 rounded-lg mt-12">
               <h3 className="text-2xl font-bold mb-4">Improve Your Ventilation</h3>
               <p className="mb-6">Call to discuss ventilation upgrades.</p>
-              <a href="tel:2085059352" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">Call (208) 505-9352</a>
+              <a href="tel:2087683987" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">Call (208) 768-3987</a>
             </div>
           </div>
         </div>

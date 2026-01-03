@@ -3,10 +3,10 @@ import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
 const services = [
-  { title: 'AC Repair & Service', description: 'When your AC stops cooling on a hot Boise summer day, you need help fast. We diagnose the problem quickly and fix it right the first time. Whether it\'s a refrigerant leak, compressor issue, or electrical problem—we\'ve seen it all and know how to get your system running again.', image: '/generated/ac-repair.webp', link: '/ac-repair', buttonText: 'Learn More' },
-  { title: 'Furnace Repair & Installation', description: 'Idaho winters don\'t mess around. When your furnace goes out, we respond fast to get your heat back on. From pilot light problems to complete system failures, our techs handle it all. And if you need a new furnace, we\'ll help you choose the right one for your home and budget.', image: '/generated/furnace-installation.webp', link: '/furnace-installation', buttonText: 'Learn More' },
-  { title: 'Preventive Maintenance', description: 'The best way to avoid emergency repairs? Regular maintenance. We inspect, clean, and tune your system so it runs efficiently and catches small problems before they become expensive disasters. Most breakdowns are preventable with proper care.', image: '/generated/hvac-maintenance.webp', link: '/hvac-maintenance', buttonText: 'Learn More' },
-  { title: '24/7 Emergency Service', description: 'No heat at 2 AM in January? AC died during a 100-degree heat wave? Some things can\'t wait until Monday. Our emergency technicians are available around the clock, every day of the year. We\'ll get to you fast and fix the problem so you can get back to comfortable.', image: '/generated/emergency-hvac.webp', link: '/emergency-hvac', buttonText: 'Learn More' },
+  { title: 'Roof Repair', description: 'When your roof starts leaking during a Boise storm, you need help fast. We diagnose the problem quickly and fix it right the first time. Whether it\'s missing shingles, damaged flashing, or storm damage—we\'ve seen it all and know how to protect your home.', image: '/generated/roof-repair.webp', link: '/roof-repair', buttonText: 'Learn More' },
+  { title: 'Roof Replacement', description: 'Idaho weather is tough on roofs. When it\'s time for a new roof, we make the process smooth and stress-free. From choosing the right materials to handling permits and installation, our experienced crew handles everything. We\'ll help you select the best roofing system for your home and budget.', image: '/generated/roof-replacement.webp', link: '/roof-replacement', buttonText: 'Learn More' },
+  { title: 'Roof Inspection & Maintenance', description: 'The best way to avoid expensive repairs? Regular inspections. We check your roof for damage, clean gutters, and catch small problems before they turn into major leaks. Most roof failures are preventable with proper maintenance.', image: '/generated/roof-inspection.webp', link: '/roof-inspection', buttonText: 'Learn More' },
+  { title: 'Emergency Roof Repair', description: 'Roof leaking at 2 AM during a storm? Shingles blown off in high winds? Some things can\'t wait until Monday. Our emergency roofing team responds quickly to protect your home from further damage. We\'ll get to you fast and fix the problem to keep you dry.', image: '/generated/emergency-roofing.webp', link: '/emergency-roofing', buttonText: 'Learn More' },
 ]
 
 export function ServicesShowcase() {
@@ -15,7 +15,7 @@ export function ServicesShowcase() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-dark-blue mb-4 uppercase" style={{textShadow: '2px 2px 3px rgba(0,0,0,0.3), 1px 1px 2px rgba(0,0,0,0.2)'}}>Serving Boise and the Treasure Valley</h2>
-          <p className="text-xl text-gray-600 max-w-4xl mx-auto">From Boise to Nampa, Meridian to Caldwell, we keep homes and businesses comfortable year-round with reliable HVAC service.</p>
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto">From Boise to Nampa, Meridian to Caldwell, we protect homes and businesses year-round with reliable roofing service.</p>
         </div>
 
         <div className="max-w-7xl mx-auto space-y-16">
@@ -38,7 +38,7 @@ export function ServicesShowcase() {
 
         <div className="flex flex-row gap-4 justify-center mt-16">
           <Button asChild size="lg" className="bg-ub-yellow hover:bg-ub-yellow/90 text-black font-bold text-lg px-10 py-6 rounded-lg uppercase border-4 border-ub-yellow">
-            <a href="tel:2085059352"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 505-9352</span></a>
+            <a href="tel:2087683987"><span className="md:hidden">Call Now</span><span className="hidden md:inline">(208) 768-3987</span></a>
           </Button>
         </div>
       </div>

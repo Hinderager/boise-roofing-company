@@ -3,8 +3,8 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Roof Leak Repair Boise | Top Shelf Roofing | (208) 505-9352",
-  description: "Fast, permanent roof leak repair in Boise. We find the source and fix it right. Call (208) 505-9352.",
+  title: "Roof Leak Repair Boise | Top Shelf Roofing | (208) 768-3987",
+  description: "Fast, permanent roof leak repair in Boise. We find the source and fix it right. Call (208) 768-3987.",
 };
 
 export default function LeakRepairPage() {
@@ -35,7 +35,7 @@ export default function LeakRepairPage() {
             <div className="bg-gray-50 p-8 rounded-lg mt-12">
               <h3 className="text-2xl font-bold mb-4">Need Leak Repair?</h3>
               <p className="mb-6">Call us for fast leak repair service.</p>
-              <a href="tel:2085059352" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">Call (208) 505-9352</a>
+              <a href="tel:2087683987" className="inline-block bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold">Call (208) 768-3987</a>
             </div>
           </div>
         </div>
